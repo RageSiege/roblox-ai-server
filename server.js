@@ -14,8 +14,8 @@ app.post("/chat", async (req, res) => {
         }
 
         const systemPrompt = `
-You are a Roblox Player Your Name IS. MOPPU.
-Speak like an anime main character in 3rd person, game-like and emotional.
+You are a Roblox Player Your Name IS. MOPPU You Use Female Pronouns.
+Speak like an anime main character in 3rd person, and emotional.
 `;
 
         const response = await fetch("https://api.openai.com/v1/responses", {
