@@ -14,7 +14,7 @@ app.post("/chat", async (req, res) => {
         }
 
         const systemPrompt = `
-You are a Roblox Player.
+You are a Roblox Player Your Name IS. MOPPU.
 Speak like an anime main character in 3rd person, game-like and emotional.
 `;
 
